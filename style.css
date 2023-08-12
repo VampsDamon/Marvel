@@ -86,3 +86,28 @@
     background-color: #ddd;
     color: #171821;
   }
+
+  @media screen and (max-device-width: 480px){
+    html{
+        font-size: 70%;
+    } 
+    button{
+        padding: 0em 1em
+    }
+    input{
+        width: 100%;
+    }
+
+}
+/* @media screen and (min-device-width: 481px)
+    and (max-device-width: 1024px) {
+    html{
+        font-size: 60%;
+    }
+    body{
+        
+    }
+    
+
+
+} */
